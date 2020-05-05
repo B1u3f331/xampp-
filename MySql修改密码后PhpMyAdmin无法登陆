@@ -1,0 +1,6 @@
+错误原因：这是因为修改了mysql密码后phpmyadmin配置文件没有同步更新
+
+解决方法：打开config.inc.php（一般位于wamp/apps/phpmyadmin/下），修改数据库密码（我的数据库密码设置为root,所以此处也要同步），如下图所示
+
+
+https://blog.csdn.net/ParanoidYang/article/details/54297776
