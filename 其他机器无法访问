@@ -1,0 +1,7 @@
+1.安装xampp4linux后，只能本机（http://localhost）访问，局域网内其他机器无法访问
+
+解答：在/opt/lampp/etc中修改httpd.conf，将Listen 80修改为Listen 本机ip地址:80 本机ip地址使用ifconfig 查看
+
+2.我按照1修改之后，局域网内的机器还是无法访问
+
+解答：将你的防火墙关闭即可，在终端下输入：chkconfig iptables off
